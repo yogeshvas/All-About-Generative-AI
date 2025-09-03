@@ -12,7 +12,7 @@ const context: OpenAI.Chat.Completions.ChatCompletionMessageParam[] = [
 ];
 async function createChatCompletion() {
   const response = await openai.chat.completions.create({
-    model: "gpt-4o-mini",
+    model: "gpt-3",
     messages: context,
   });
   const responseMessage = response.choices[0].message;
