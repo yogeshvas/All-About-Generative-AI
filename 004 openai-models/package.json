@@ -1,0 +1,18 @@
+{
+  "name": "004-openai-models",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r ts-node/register --env-file=.env src/others/images.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/node": "^24.3.1",
+    "openai": "^5.19.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}

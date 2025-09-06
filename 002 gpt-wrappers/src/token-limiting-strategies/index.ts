@@ -26,7 +26,12 @@ function estimateTokens(text: string): number {
 
 // Calculate total tokens in context
 function getContextTokenCount(): number {
-  return context.reduce((total, msg) => total + estimateTokens(msg.content), 0);
+  return context.reduce(
+    (total, msg) =>
+      total +
+      estimateTokens(typeof msg.content === "string" ? msg.content : ""),
+    0
+  );
 }
 
 // Trim context to stay within token limit
