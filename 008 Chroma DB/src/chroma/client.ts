@@ -1,7 +1,12 @@
 /** @format */
 
 import { ChromaClient } from "chromadb";
+import { OpenAIEmbeddingFunction } from "@chroma-core/openai";
 
+const embeddingFunction = new OpenAIEmbeddingFunction({
+  apiKey: process.env.OPENAI_API_KEY || "",
+  modelName: "text-embedding-3-small",
+});
 const client = new ChromaClient({
   host: "localhost",
   port: 8000,
@@ -10,18 +15,17 @@ const client = new ChromaClient({
 
 async function main() {
   const response = await client.createCollection({
-    name: "data-test3",
-    embeddingFunction: null, // explicitly tell Chroma no embeddings
+    name: "data-test5",
+    embeddingFunction: embeddingFunction, // explicitly tell Chroma no embeddings
   });
   console.log(response);
 }
 
 async function addData() {
-  const collection = await client.getCollection({ name: "data-test3" });
+  const collection = await client.getCollection({ name: "data-test5" });
   const result = await collection.add({
     ids: ["1"],
     documents: ["Here is my entry"],
-    embeddings: [[0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]],
   });
   console.log(result);
 }
