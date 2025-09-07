@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "The Cosmic Journey",
+    "genre": ["Sci-Fi", "Adventure"],
+    "description": "A group of astronauts embarks on a mission to explore a newly discovered planet, uncovering secrets that challenge their understanding of the universe.",
+    "rating": 8.2,
+    "year": 2023
+  },
+  {
+    "id": 2,
+    "title": "Love in the Time of Pixels",
+    "genre": ["Romance", "Drama"],
+    "description": "Two strangers meet in a virtual reality world and form a deep connection, but struggle to maintain their bond in the real world.",
+    "rating": 7.8,
+    "year": 2024
+  },
+  {
+    "id": 3,
+    "title": "The Last Firewall",
+    "genre": ["Action", "Thriller", "Sci-Fi"],
+    "description": "A rogue hacker must stop an AI from taking over the global internet in a high-stakes cyber battle.",
+    "rating": 6.9,
+    "year": 2022
+  },
+  {
+    "id": 4,
+    "title": "Mysteries of the Old Town",
+    "genre": ["Mystery", "Drama"],
+    "description": "A detective investigates a series of disappearances in a quaint town, revealing dark secrets hidden for decades.",
+    "rating": 7.5,
+    "year": 2021
+  },
+  {
+    "id": 5,
+    "title": "Laugh Riot",
+    "genre": ["Comedy"],
+    "description": "A struggling comedian accidentally becomes an internet sensation, leading to chaotic and hilarious misadventures.",
+    "rating": 6.5,
+    "year": 2023
+  },
+  {
+    "id": 6,
+    "title": "Echoes of Eternity",
+    "genre": ["Fantasy", "Adventure"],
+    "description": "A young warrior discovers a magical artifact that could save or destroy their kingdom, forcing them to confront their destiny.",
+    "rating": 8.0,
+    "year": 2024
+  },
+  {
+    "id": 7,
+    "title": "Neon Nights",
+    "genre": ["Crime", "Thriller"],
+    "description": "A private investigator navigates the gritty underworld of a futuristic city to uncover a conspiracy threatening its core.",
+    "rating": 7.3,
+    "year": 2022
+  },
+  {
+    "id": 8,
+    "title": "Family Ties",
+    "genre": ["Drama", "Family"],
+    "description": "A multigenerational family reunites for a holiday, confronting old wounds and rediscovering their love for each other.",
+    "rating": 7.7,
+    "year": 2021
+  },
+  {
+    "id": 9,
+    "title": "Space Pirates",
+    "genre": ["Sci-Fi", "Action", "Comedy"],
+    "description": "A ragtag crew of misfits embarks on a heist to steal a valuable artifact from a heavily guarded space station.",
+    "rating": 6.8,
+    "year": 2023
+  },
+  {
+    "id": 10,
+    "title": "The Forgotten Song",
+    "genre": ["Romance", "Fantasy"],
+    "description": "A musician discovers an ancient melody that can alter reality, but using it comes at a steep personal cost.",
+    "rating": 8.5,
+    "year": 2024
+  }
+]
