@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "node -r ts-node/register --env-file=.env src/chroma/client.ts"
+    "start": "node -r ts-node/register --env-file=.env src/chroma/chat-app-with-embeddings.ts"
   },
   "keywords": [],
   "author": "",
