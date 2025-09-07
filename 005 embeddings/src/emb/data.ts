@@ -1,6 +1,6 @@
 /** @format */
 
-import { readFileSync, write, writeFileSync } from "fs";
+import { readFileSync, writeFileSync } from "fs";
 import OpenAI from "openai";
 import { join } from "path";
 
@@ -19,7 +19,7 @@ async function generateEmbeddings(input: string | string[]) {
     input,
   });
   console.log(response.data[0].embedding);
-  return response.data[0].embedding;
+  return response;
 }
 
 function loadJSONData<T>(fileName: string): T {
@@ -39,11 +39,17 @@ function saveDataToJsonFile(data: any, fileName: string) {
 async function main() {
   const data = loadJSONData<string[]>("data.json");
   const embeddings = await generateEmbeddings(data);
+  console.log("main embeddings", embeddings);
   const dataWithEmbeddings: Embeddings[] = [];
   for (let i = 0; i < data.length; i++) {
-    dataWithEmbeddings.push({ input: data[i], embedding: embeddings.data[i] });
+    dataWithEmbeddings.push({
+      input: data[i],
+      embedding: embeddings.data[i].embedding,
+    });
   }
   saveDataToJsonFile(dataWithEmbeddings, "dataWithEmbeddings.json");
 }
+
+main();
 
 // generateEmbeddings("CAT");
