@@ -16,7 +16,7 @@ const client = new ChromaClient({
 async function main() {
   const response = await client.createCollection({
     name: "data-test5",
-    embeddingFunction: embeddingFunction, // explicitly tell Chroma no embeddings
+    embeddingFunction: embeddingFunction, 
   });
   console.log(response);
 }
