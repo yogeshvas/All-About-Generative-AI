@@ -47,10 +47,10 @@ This repository documents my journey through fundamental and advanced concepts i
 
 ## 🛠️ Technologies Covered
 
-- **Programming Languages**: Python, JavaScript
-- **AI Frameworks**: OpenAI API, TensorFlow, PyTorch
-- **Vector Databases**: ChromaDB, Pinecone, FAISS
-- **Tools**: VS Code, Jupyter Notebooks, various AI development tools
+- **Programming Languages**:  JavaScript
+- **AI Frameworks**: OpenAI API
+- **Vector Databases**: ChromaDB, Pinecone
+- **Tools**: VS Code
 - **Visualization**: Data analysis and vector space visualization techniques
 
 ## 📊 Key Concepts
