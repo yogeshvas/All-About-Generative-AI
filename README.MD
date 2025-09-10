@@ -1,3 +1,4 @@
+```markdown
 # Generative AI Learning Path
 
 This repository documents my journey through fundamental and advanced concepts in Generative AI, covering everything from basic setups to specialized vector database implementations.
@@ -5,17 +6,22 @@ This repository documents my journey through fundamental and advanced concepts i
 ## 📁 Repository Structure
 
 ```
-├── 001_basic/                    # Introduction to Generative AI fundamentals
-├── 002_ai-context-based-apps/    # Context-aware AI applications
-├── 003_tools-functions/          # AI development tools and functions
-├── 004_openai-models/            # OpenAI model implementations and experiments
-├── 005_embeddings/               # Text and data embedding techniques
-├── 006_netflix-recommendation/   # Recommendation engine project
-├── 007_vector-database/          # Vector database concepts
-├── 008_chroma-db/                # ChromaDB implementations
-├── 009_pincome-db/               # Pincome database projects
-├── Vector Databases.png          # Visual guide to vector databases
-└── README.md                     # This file
+├── 001_basic/                           # Introduction to Generative AI fundamentals
+├── 002_ai-context-based-apps/           # Context-aware AI applications
+├── 003_tools-functions/                 # AI development tools and functions
+├── 004_openai-models/                   # OpenAI model implementations and experiments
+├── 005_embeddings/                      # Text and data embedding techniques
+├── 006_Netflix Recommendation Engine/   # Recommendation engine project
+├── 007_Vector Database/                 # Vector database concepts
+├── 008_Chroma DB/                       # ChromaDB implementations
+├── 009_Pincome DB/                      # Pinecone database projects
+├── 010_Embeddings Chat App/             # Chat application using embeddings
+├── 011_Langchain/                       # LangChain framework implementations
+├── 012_RAG/                             # Retrieval-Augmented Generation projects
+├── Vector Databases.png                 # Visual guide to vector databases
+├── .env                                 # Environment variables template
+├── .gitignore                          # Git ignore rules
+└── README.md                           # This file
 ```
 
 ## 🚀 Learning Path
@@ -37,21 +43,20 @@ This repository documents my journey through fundamental and advanced concepts i
 - Implementation of embedding models and similarity calculations
 
 ### 5. Real-world Projects
-- **006_netflix-recommendation**: Building a sophisticated recommendation engine
+- **006_Netflix Recommendation Engine**: Building a sophisticated recommendation engine
 - Collaborative filtering, content-based filtering, and hybrid approaches
 
 ### 6. Vector Database Mastery
-- **007_vector-database**: Comprehensive understanding of vector databases
-- **008_chroma-db**: Hands-on with ChromaDB for efficient vector storage and retrieval
-- **009_pincome-db**: Specialized database implementations for AI applications
+- **007_Vector Database**: Comprehensive understanding of vector databases
+- **008_Chroma DB**: Hands-on with ChromaDB for efficient vector storage and retrieval
+- **009_Pincome DB**: Specialized database implementations for AI applications
 
-## 🛠️ Technologies Covered
+### 7. Application Development
+- **010_Embeddings Chat App**: Building chat applications using embedding technology
+- **011_Langchain**: Implementing solutions with the LangChain framework
+- **012_RAG**: Developing Retrieval-Augmented Generation systems
 
-- **Programming Languages**:  JavaScript
-- **AI Frameworks**: OpenAI API
-- **Vector Databases**: ChromaDB, Pinecone
-- **Tools**: VS Code
-- **Visualization**: Data analysis and vector space visualization techniques
+
 
 ## 📊 Key Concepts
 
@@ -60,9 +65,18 @@ This repository documents my journey through fundamental and advanced concepts i
 - **Recommendation Systems**: Building intelligent content suggestion engines
 - **Vector Operations**: Mathematical operations in vector spaces
 - **Database Optimization**: Efficient storage and retrieval of vector data
+- **RAG**: Retrieval-Augmented Generation for enhanced AI responses
+- **LangChain**: Framework for developing applications with language models
 
-## 📈 Also
-I have added a lot of other my hand drawn images, charts and flow, that will really be helpfull.
----
+## 📈 Visual Resources
 
-*This repository represents a structured approach to mastering Generative AI, from fundamental concepts to advanced implementations in real-world scenarios.*
+I've included hand-drawn diagrams, charts, and flowcharts (like "Vector Databases.png") throughout this repository to visually explain complex concepts. These visual aids complement the code examples and provide intuitive understanding of:
+
+- Vector database architectures
+- Embedding space visualization
+- AI workflow diagrams
+- Model comparison charts
+- Recommendation system flows
+
+
+thanks :)
