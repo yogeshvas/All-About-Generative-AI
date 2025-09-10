@@ -86,7 +86,7 @@ async function queryEmbeddings(question: string) {
 
   const result = await pcIndex.query({
     vector: questionEmbedding,
-    topK: 1,
+    topK: 3,
     includeMetadata: true,
     includeValues: true,
   });
