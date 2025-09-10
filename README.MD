@@ -4,7 +4,7 @@ This repository documents my journey through fundamental and advanced concepts i
 
 ## 📁 Repository Structure
 
-
+```
 ├── 001_basic/                           # Introduction to Generative AI fundamentals
 ├── 002_ai-context-based-apps/           # Context-aware AI applications
 ├── 003_tools-functions/                 # AI development tools and functions
@@ -21,7 +21,7 @@ This repository documents my journey through fundamental and advanced concepts i
 ├── .env                                 # Environment variables template
 ├── .gitignore                          # Git ignore rules
 └── README.md                           # This file
-
+```
 ## 🚀 Learning Path
 
 ### 1. Foundation Building
