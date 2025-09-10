@@ -1,4 +1,3 @@
-```markdown
 # Generative AI Learning Path
 
 This repository documents my journey through fundamental and advanced concepts in Generative AI, covering everything from basic setups to specialized vector database implementations.
@@ -22,7 +21,6 @@ This repository documents my journey through fundamental and advanced concepts i
 ├── .env                                 # Environment variables template
 ├── .gitignore                          # Git ignore rules
 └── README.md                           # This file
-```
 
 ## 🚀 Learning Path
 
